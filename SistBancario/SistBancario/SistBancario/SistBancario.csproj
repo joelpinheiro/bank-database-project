@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3F98F4DA-D2BF-411A-B5EC-341B4E391B30}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SistBancario</RootNamespace>
+    <AssemblyName>SistBancario</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\Global.cs" />
+    <Compile Include="balcao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="balcao.Designer.cs">
+      <DependentUpon>balcao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cliente.Designer.cs">
+      <DependentUpon>cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conta.Designer.cs">
+      <DependentUpon>conta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="operacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="operacao.Designer.cs">
+      <DependentUpon>operacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="levantamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="levantamento.Designer.cs">
+      <DependentUpon>levantamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deposito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deposito.Designer.cs">
+      <DependentUpon>deposito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="transferencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transferencia.Designer.cs">
+      <DependentUpon>transferencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="funcionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="funcionario.Designer.cs">
+      <DependentUpon>funcionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="emprestimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="emprestimo.Designer.cs">
+      <DependentUpon>emprestimo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuInicial.Designer.cs">
+      <DependentUpon>menuInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="zBalcao.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>zBalcao.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="zCliente.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>zCliente.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="zConta.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>zConta.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="zDeposito.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>zDeposito.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="zEmprestimo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>zEmprestimo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="zFuncionario.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>zFuncionario.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="zLevantamento.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>zLevantamento.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="zOperacao.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>zOperacao.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="zTransferencia.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>zTransferencia.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="balcao.resx">
+      <DependentUpon>balcao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cliente.resx">
+      <DependentUpon>cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conta.resx">
+      <DependentUpon>conta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="operacao.resx">
+      <DependentUpon>operacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="levantamento.resx">
+      <DependentUpon>levantamento.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deposito.resx">
+      <DependentUpon>deposito.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transferencia.resx">
+      <DependentUpon>transferencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="funcionario.resx">
+      <DependentUpon>funcionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="emprestimo.resx">
+      <DependentUpon>emprestimo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuInicial.resx">
+      <DependentUpon>menuInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="zBalcao.xsc">
+      <DependentUpon>zBalcao.xsd</DependentUpon>
+    </None>
+    <None Include="zBalcao.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>zBalcao.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="zBalcao.xss">
+      <DependentUpon>zBalcao.xsd</DependentUpon>
+    </None>
+    <None Include="zCliente.xsc">
+      <DependentUpon>zCliente.xsd</DependentUpon>
+    </None>
+    <None Include="zCliente.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>zCliente.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="zCliente.xss">
+      <DependentUpon>zCliente.xsd</DependentUpon>
+    </None>
+    <None Include="zConta.xsc">
+      <DependentUpon>zConta.xsd</DependentUpon>
+    </None>
+    <None Include="zConta.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>zConta.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="zConta.xss">
+      <DependentUpon>zConta.xsd</DependentUpon>
+    </None>
+    <None Include="zDeposito.xsc">
+      <DependentUpon>zDeposito.xsd</DependentUpon>
+    </None>
+    <None Include="zDeposito.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>zDeposito.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="zDeposito.xss">
+      <DependentUpon>zDeposito.xsd</DependentUpon>
+    </None>
+    <None Include="zEmprestimo.xsc">
+      <DependentUpon>zEmprestimo.xsd</DependentUpon>
+    </None>
+    <None Include="zEmprestimo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>zEmprestimo.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="zEmprestimo.xss">
+      <DependentUpon>zEmprestimo.xsd</DependentUpon>
+    </None>
+    <None Include="zFuncionario.xsc">
+      <DependentUpon>zFuncionario.xsd</DependentUpon>
+    </None>
+    <None Include="zFuncionario.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>zFuncionario.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="zFuncionario.xss">
+      <DependentUpon>zFuncionario.xsd</DependentUpon>
+    </None>
+    <None Include="zLevantamento.xsc">
+      <DependentUpon>zLevantamento.xsd</DependentUpon>
+    </None>
+    <None Include="zLevantamento.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>zLevantamento.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="zLevantamento.xss">
+      <DependentUpon>zLevantamento.xsd</DependentUpon>
+    </None>
+    <None Include="zOperacao.xsc">
+      <DependentUpon>zOperacao.xsd</DependentUpon>
+    </None>
+    <None Include="zOperacao.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>zOperacao.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="zOperacao.xss">
+      <DependentUpon>zOperacao.xsd</DependentUpon>
+    </None>
+    <None Include="zTransferencia.xsc">
+      <DependentUpon>zTransferencia.xsd</DependentUpon>
+    </None>
+    <None Include="zTransferencia.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>zTransferencia.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="zTransferencia.xss">
+      <DependentUpon>zTransferencia.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

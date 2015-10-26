@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="zConta" targetNamespace="http://tempuri.org/zConta.xsd" xmlns:mstns="http://tempuri.org/zConta.xsd" xmlns="http://tempuri.org/zConta.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Myp4g10ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Myp4g10ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SistBancario.Properties.Settings.GlobalReference.Default.Myp4g10ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="contaviewTableAdapter" GeneratorDataComponentClassName="contaviewTableAdapter" Name="contaview" UserDataComponentName="contaviewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Myp4g10ConnectionString (Settings)" DbObjectName="p4g10.dbo.contaview" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Nome, NIF, [Número de Conta], Saldo, Tipo, [Balcão Associado] FROM dbo.contaview</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Nome" DataSetColumn="Nome" />
+              <Mapping SourceColumn="NIF" DataSetColumn="NIF" />
+              <Mapping SourceColumn="Número de Conta" DataSetColumn="Número de Conta" />
+              <Mapping SourceColumn="Saldo" DataSetColumn="Saldo" />
+              <Mapping SourceColumn="Tipo" DataSetColumn="Tipo" />
+              <Mapping SourceColumn="Balcão Associado" DataSetColumn="Balcão Associado" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="zConta" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="zConta" msprop:Generator_UserDSName="zConta">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="contaview" msprop:Generator_TableClassName="contaviewDataTable" msprop:Generator_TableVarName="tablecontaview" msprop:Generator_TablePropName="contaview" msprop:Generator_RowDeletingName="contaviewRowDeleting" msprop:Generator_RowChangingName="contaviewRowChanging" msprop:Generator_RowEvHandlerName="contaviewRowChangeEventHandler" msprop:Generator_RowDeletedName="contaviewRowDeleted" msprop:Generator_UserTableName="contaview" msprop:Generator_RowChangedName="contaviewRowChanged" msprop:Generator_RowEvArgName="contaviewRowChangeEvent" msprop:Generator_RowClassName="contaviewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nome" msprop:Generator_ColumnVarNameInTable="columnNome" msprop:Generator_ColumnPropNameInRow="Nome" msprop:Generator_ColumnPropNameInTable="NomeColumn" msprop:Generator_UserColumnName="Nome">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NIF" msprop:Generator_ColumnVarNameInTable="columnNIF" msprop:Generator_ColumnPropNameInRow="NIF" msprop:Generator_ColumnPropNameInTable="NIFColumn" msprop:Generator_UserColumnName="NIF" type="xs:int" />
+              <xs:element name="Número_x0020_de_x0020_Conta" msprop:Generator_ColumnVarNameInTable="columnNúmero_de_Conta" msprop:Generator_ColumnPropNameInRow="Número_de_Conta" msprop:Generator_ColumnPropNameInTable="Número_de_ContaColumn" msprop:Generator_UserColumnName="Número de Conta" type="xs:int" />
+              <xs:element name="Saldo" msprop:Generator_ColumnVarNameInTable="columnSaldo" msprop:Generator_ColumnPropNameInRow="Saldo" msprop:Generator_ColumnPropNameInTable="SaldoColumn" msprop:Generator_UserColumnName="Saldo" type="xs:decimal" />
+              <xs:element name="Tipo" msprop:Generator_ColumnVarNameInTable="columnTipo" msprop:Generator_ColumnPropNameInRow="Tipo" msprop:Generator_ColumnPropNameInTable="TipoColumn" msprop:Generator_UserColumnName="Tipo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Balcão_x0020_Associado" msprop:Generator_ColumnVarNameInTable="columnBalcão_Associado" msprop:Generator_ColumnPropNameInRow="Balcão_Associado" msprop:Generator_ColumnPropNameInTable="Balcão_AssociadoColumn" msprop:Generator_UserColumnName="Balcão Associado">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="zTransferencia" targetNamespace="http://tempuri.org/zTransferencia.xsd" xmlns:mstns="http://tempuri.org/zTransferencia.xsd" xmlns="http://tempuri.org/zTransferencia.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Myp4g10ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Myp4g10ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SistBancario.Properties.Settings.GlobalReference.Default.Myp4g10ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="transferenciaviewTableAdapter" GeneratorDataComponentClassName="transferenciaviewTableAdapter" Name="transferenciaview" UserDataComponentName="transferenciaviewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Myp4g10ConnectionString (Settings)" DbObjectName="p4g10.dbo.transferenciaview" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [ID Operação], [ID Transferência], [Número Conta Origem], [Número Conta Destinatário], [Valor Transferência], [NIF Funcionario], Tipo, Data, Hora FROM dbo.transferenciaview</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID Operação" DataSetColumn="ID Operação" />
+              <Mapping SourceColumn="ID Transferência" DataSetColumn="ID Transferência" />
+              <Mapping SourceColumn="Número Conta Origem" DataSetColumn="Número Conta Origem" />
+              <Mapping SourceColumn="Número Conta Destinatário" DataSetColumn="Número Conta Destinatário" />
+              <Mapping SourceColumn="Valor Transferência" DataSetColumn="Valor Transferência" />
+              <Mapping SourceColumn="NIF Funcionario" DataSetColumn="NIF Funcionario" />
+              <Mapping SourceColumn="Tipo" DataSetColumn="Tipo" />
+              <Mapping SourceColumn="Data" DataSetColumn="Data" />
+              <Mapping SourceColumn="Hora" DataSetColumn="Hora" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="zTransferencia" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="zTransferencia" msprop:Generator_UserDSName="zTransferencia">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="transferenciaview" msprop:Generator_TableClassName="transferenciaviewDataTable" msprop:Generator_TableVarName="tabletransferenciaview" msprop:Generator_TablePropName="transferenciaview" msprop:Generator_RowDeletingName="transferenciaviewRowDeleting" msprop:Generator_RowChangingName="transferenciaviewRowChanging" msprop:Generator_RowEvHandlerName="transferenciaviewRowChangeEventHandler" msprop:Generator_RowDeletedName="transferenciaviewRowDeleted" msprop:Generator_UserTableName="transferenciaview" msprop:Generator_RowChangedName="transferenciaviewRowChanged" msprop:Generator_RowEvArgName="transferenciaviewRowChangeEvent" msprop:Generator_RowClassName="transferenciaviewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_x0020_Operação" msprop:Generator_ColumnVarNameInTable="columnID_Operação" msprop:Generator_ColumnPropNameInRow="ID_Operação" msprop:Generator_ColumnPropNameInTable="ID_OperaçãoColumn" msprop:Generator_UserColumnName="ID Operação" type="xs:int" />
+              <xs:element name="ID_x0020_Transferência" msprop:Generator_ColumnVarNameInTable="columnID_Transferência" msprop:Generator_ColumnPropNameInRow="ID_Transferência" msprop:Generator_ColumnPropNameInTable="ID_TransferênciaColumn" msprop:Generator_UserColumnName="ID Transferência" type="xs:int" />
+              <xs:element name="Número_x0020_Conta_x0020_Origem" msprop:Generator_ColumnVarNameInTable="columnNúmero_Conta_Origem" msprop:Generator_ColumnPropNameInRow="Número_Conta_Origem" msprop:Generator_ColumnPropNameInTable="Número_Conta_OrigemColumn" msprop:Generator_UserColumnName="Número Conta Origem" type="xs:int" />
+              <xs:element name="Número_x0020_Conta_x0020_Destinatário" msprop:Generator_ColumnVarNameInTable="columnNúmero_Conta_Destinatário" msprop:Generator_ColumnPropNameInRow="Número_Conta_Destinatário" msprop:Generator_ColumnPropNameInTable="Número_Conta_DestinatárioColumn" msprop:Generator_UserColumnName="Número Conta Destinatário" type="xs:int" />
+              <xs:element name="Valor_x0020_Transferência" msprop:Generator_ColumnVarNameInTable="columnValor_Transferência" msprop:Generator_ColumnPropNameInRow="Valor_Transferência" msprop:Generator_ColumnPropNameInTable="Valor_TransferênciaColumn" msprop:Generator_UserColumnName="Valor Transferência" type="xs:decimal" />
+              <xs:element name="NIF_x0020_Funcionario" msprop:Generator_ColumnVarNameInTable="columnNIF_Funcionario" msprop:Generator_ColumnPropNameInRow="NIF_Funcionario" msprop:Generator_ColumnPropNameInTable="NIF_FuncionarioColumn" msprop:Generator_UserColumnName="NIF Funcionario" type="xs:int" />
+              <xs:element name="Tipo" msprop:Generator_ColumnVarNameInTable="columnTipo" msprop:Generator_ColumnPropNameInRow="Tipo" msprop:Generator_ColumnPropNameInTable="TipoColumn" msprop:Generator_UserColumnName="Tipo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Data" msprop:Generator_ColumnVarNameInTable="columnData" msprop:Generator_ColumnPropNameInRow="Data" msprop:Generator_ColumnPropNameInTable="DataColumn" msprop:Generator_UserColumnName="Data" type="xs:dateTime" />
+              <xs:element name="Hora" msprop:Generator_ColumnVarNameInTable="columnHora" msprop:Generator_ColumnPropNameInRow="Hora" msprop:Generator_ColumnPropNameInTable="HoraColumn" msprop:Generator_UserColumnName="Hora" type="xs:duration" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:transferenciaview" />
+      <xs:field xpath="mstns:ID_x0020_Operação" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

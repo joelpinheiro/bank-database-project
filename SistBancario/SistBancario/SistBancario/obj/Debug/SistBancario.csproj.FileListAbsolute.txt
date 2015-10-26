@@ -1,0 +1,56 @@
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\bin\Debug\SistBancario.exe
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\bin\Debug\SistBancario.pdb
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\obj\Debug\SistBancario.balcao.resources
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\obj\Debug\SistBancario.Properties.Resources.resources
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\obj\Debug\SistBancario.csproj.GenerateResource.Cache
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\obj\Debug\SistBancario.exe
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\obj\Debug\SistBancario.pdb
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\obj\Debug\SistBancario.menuInicial.resources
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\obj\Debug\SistBancario.csprojResolveAssemblyReference.cache
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\bin\Debug\SistBancario.exe.config
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\obj\Debug\SistBancario.exe
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\obj\Debug\SistBancario.pdb
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\bin\Debug\SistBancario.exe
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\bin\Debug\SistBancario.pdb
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\obj\Debug\SistBancario.csprojResolveAssemblyReference.cache
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\obj\Debug\SistBancario.balcao.resources
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\obj\Debug\SistBancario.menuInicial.resources
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\obj\Debug\SistBancario.Properties.Resources.resources
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\obj\Debug\SistBancario.csproj.GenerateResource.Cache
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\obj\Debug\SistBancario.cliente.resources
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\obj\Debug\SistBancario.funcionario.resources
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\obj\Debug\SistBancario.emprestimo.resources
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.exe
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.pdb
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\bin\Debug\SistBancario.exe
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\bin\Debug\SistBancario.pdb
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.csprojResolveAssemblyReference.cache
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.balcao.resources
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.cliente.resources
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.emprestimo.resources
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.funcionario.resources
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.menuInicial.resources
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.Properties.Resources.resources
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.csproj.GenerateResource.Cache
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.transferencia.resources
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.levantamento.resources
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.conta.resources
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.deposito.resources
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.exe
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.pdb
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.csprojResolveAssemblyReference.cache
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.balcao.resources
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.cliente.resources
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.conta.resources
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.deposito.resources
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.levantamento.resources
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.transferencia.resources
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.funcionario.resources
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.emprestimo.resources
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.menuInicial.resources
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.Properties.Resources.resources
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.csproj.GenerateResource.Cache
+\\psf\Dropbox\Universidade\BD\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.operacao.resources
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\bin\Debug\SistBancario.exe
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\bin\Debug\SistBancario.pdb
+C:\Users\Ana Paula\Dropbox\BD (2)\Bank DB\Sistema Bancário\SistBancario\SistBancario\SistBancario\obj\Debug\SistBancario.operacao.resources

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="zDeposito" targetNamespace="http://tempuri.org/zDeposito.xsd" xmlns:mstns="http://tempuri.org/zDeposito.xsd" xmlns="http://tempuri.org/zDeposito.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Myp4g10ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Myp4g10ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SistBancario.Properties.Settings.GlobalReference.Default.Myp4g10ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="depositoviewTableAdapter" GeneratorDataComponentClassName="depositoviewTableAdapter" Name="depositoview" UserDataComponentName="depositoviewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Myp4g10ConnectionString (Settings)" DbObjectName="p4g10.dbo.depositoview" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [ID Operação], [ID DEposito], [Número de Conta], [Valor Deposito], [NIF Funcionario], Tipo, Data, Hora FROM dbo.depositoview</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID Operação" DataSetColumn="ID Operação" />
+              <Mapping SourceColumn="ID DEposito" DataSetColumn="ID DEposito" />
+              <Mapping SourceColumn="Número de Conta" DataSetColumn="Número de Conta" />
+              <Mapping SourceColumn="Valor Deposito" DataSetColumn="Valor Deposito" />
+              <Mapping SourceColumn="NIF Funcionario" DataSetColumn="NIF Funcionario" />
+              <Mapping SourceColumn="Tipo" DataSetColumn="Tipo" />
+              <Mapping SourceColumn="Data" DataSetColumn="Data" />
+              <Mapping SourceColumn="Hora" DataSetColumn="Hora" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="zDeposito" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="zDeposito" msprop:Generator_UserDSName="zDeposito">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="depositoview" msprop:Generator_TableClassName="depositoviewDataTable" msprop:Generator_TableVarName="tabledepositoview" msprop:Generator_TablePropName="depositoview" msprop:Generator_RowDeletingName="depositoviewRowDeleting" msprop:Generator_RowChangingName="depositoviewRowChanging" msprop:Generator_RowEvHandlerName="depositoviewRowChangeEventHandler" msprop:Generator_RowDeletedName="depositoviewRowDeleted" msprop:Generator_UserTableName="depositoview" msprop:Generator_RowChangedName="depositoviewRowChanged" msprop:Generator_RowEvArgName="depositoviewRowChangeEvent" msprop:Generator_RowClassName="depositoviewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_x0020_Operação" msprop:Generator_ColumnVarNameInTable="columnID_Operação" msprop:Generator_ColumnPropNameInRow="ID_Operação" msprop:Generator_ColumnPropNameInTable="ID_OperaçãoColumn" msprop:Generator_UserColumnName="ID Operação" type="xs:int" />
+              <xs:element name="ID_x0020_DEposito" msprop:Generator_ColumnVarNameInTable="columnID_DEposito" msprop:Generator_ColumnPropNameInRow="ID_DEposito" msprop:Generator_ColumnPropNameInTable="ID_DEpositoColumn" msprop:Generator_UserColumnName="ID DEposito" type="xs:int" />
+              <xs:element name="Número_x0020_de_x0020_Conta" msprop:Generator_ColumnVarNameInTable="columnNúmero_de_Conta" msprop:Generator_ColumnPropNameInRow="Número_de_Conta" msprop:Generator_ColumnPropNameInTable="Número_de_ContaColumn" msprop:Generator_UserColumnName="Número de Conta" type="xs:int" />
+              <xs:element name="Valor_x0020_Deposito" msprop:Generator_ColumnVarNameInTable="columnValor_Deposito" msprop:Generator_ColumnPropNameInRow="Valor_Deposito" msprop:Generator_ColumnPropNameInTable="Valor_DepositoColumn" msprop:Generator_UserColumnName="Valor Deposito" type="xs:decimal" />
+              <xs:element name="NIF_x0020_Funcionario" msprop:Generator_ColumnVarNameInTable="columnNIF_Funcionario" msprop:Generator_ColumnPropNameInRow="NIF_Funcionario" msprop:Generator_ColumnPropNameInTable="NIF_FuncionarioColumn" msprop:Generator_UserColumnName="NIF Funcionario" type="xs:int" />
+              <xs:element name="Tipo" msprop:Generator_ColumnVarNameInTable="columnTipo" msprop:Generator_ColumnPropNameInRow="Tipo" msprop:Generator_ColumnPropNameInTable="TipoColumn" msprop:Generator_UserColumnName="Tipo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Data" msprop:Generator_ColumnVarNameInTable="columnData" msprop:Generator_ColumnPropNameInRow="Data" msprop:Generator_ColumnPropNameInTable="DataColumn" msprop:Generator_UserColumnName="Data" type="xs:dateTime" />
+              <xs:element name="Hora" msprop:Generator_ColumnVarNameInTable="columnHora" msprop:Generator_ColumnPropNameInRow="Hora" msprop:Generator_ColumnPropNameInTable="HoraColumn" msprop:Generator_UserColumnName="Hora" type="xs:duration" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:depositoview" />
+      <xs:field xpath="mstns:ID_x0020_Operação" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
